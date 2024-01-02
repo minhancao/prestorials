@@ -18,7 +18,8 @@ services:
         ipv4_address: 172.19.0.2
   hadoop:
     hostname: hadoop-master
-    image: 'prestodb/hive3.1-hive:10'
+    # image: 'prestodb/hive3.1-hive:10'
+    image: 'apache/hive:4.0.0-beta-2-SNAPSHOT'
     container_name: hadoop-master
     environment:
       AWS_ACCESS_KEY_ID: minioadmin

@@ -14,7 +14,7 @@ nav:
     - About Prestorials: readme.md
   - Prestorials:
     - docker-compose: docker-compose/README.md
-    - docker-compose-native: docker-compose-native/README.md
+    - docker-compose-native: docker-compose-native/readme.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 

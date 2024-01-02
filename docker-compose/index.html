@@ -10,22 +10,26 @@
         <meta name="author" content="minhancao">
       
       
+        <link rel="canonical" href="https://minhancao.github.io/prestorials/docker-compose/">
+      
+      
+        <link rel="prev" href="../readme/">
       
       
       
-      <link rel="icon" href="/prestorials/assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Prestorials</title>
+        <title>docker-compose - Prestorials</title>
       
     
     
-      <link rel="stylesheet" href="/prestorials/assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="/prestorials/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,11 +48,37 @@
       
     
     
-    <script>__md_scope=new URL("/prestorials/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="docker-compose - Prestorials" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://minhancao.github.io/prestorials/assets/images/social/docker-compose/README.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://minhancao.github.io/prestorials/docker-compose/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="docker-compose - Prestorials" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://minhancao.github.io/prestorials/assets/images/social/docker-compose/README.png" >
+      
     
     
   </head>
@@ -67,6 +97,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#presto-in-docker-compose" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -77,9 +112,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/prestorials/." title="Prestorials" class="md-header__button md-logo" aria-label="Prestorials" data-md-component="logo">
+    <a href=".." title="Prestorials" class="md-header__button md-logo" aria-label="Prestorials" data-md-component="logo">
       
-  <img src="/prestorials/images/ibm-blue-background.png" alt="logo">
+  <img src="../images/ibm-blue-background.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -96,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              docker-compose
             
           </span>
         </div>
@@ -179,7 +214,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/prestorials/readme/" class="md-tabs__link">
+        <a href="../readme/" class="md-tabs__link">
           
   
   Welcome
@@ -193,11 +228,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/prestorials/docker-compose/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   Prestorials
@@ -230,9 +267,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/prestorials/." title="Prestorials" class="md-nav__button md-logo" aria-label="Prestorials" data-md-component="logo">
+    <a href=".." title="Prestorials" class="md-nav__button md-logo" aria-label="Prestorials" data-md-component="logo">
       
-  <img src="/prestorials/images/ibm-blue-background.png" alt="logo">
+  <img src="../images/ibm-blue-background.png" alt="logo">
 
     </a>
     Prestorials
@@ -299,7 +336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prestorials/readme/" class="md-nav__link">
+      <a href="../readme/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -324,8 +361,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -334,12 +373,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -353,7 +392,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Prestorials
@@ -364,10 +403,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/prestorials/docker-compose/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    docker-compose
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -376,6 +435,89 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-catalog-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update catalog configurations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-a-presto-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start a Presto cluster
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-presto-web-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access Presto Web Console
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-presto-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run Presto CLI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stop-and-delete-the-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stop and delete the cluster
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -388,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/prestorials/docker-compose-native/README.md" class="md-nav__link">
+      <a href="../docker-compose-native/README.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,6 +568,79 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-catalog-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update catalog configurations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-a-presto-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start a Presto cluster
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-presto-web-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access Presto Web Console
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-presto-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run Presto CLI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stop-and-delete-the-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stop and delete the cluster
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -437,8 +652,62 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="presto-in-docker-compose">Presto in Docker Compose<a class="headerlink" href="#presto-in-docker-compose" title="Permanent link">&para;</a></h1>
+<p>This is a sample setup to run a Presto cluster with 1 coordinator and 2 workers.</p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Mac OS X or Linux, with minimum 10G memory and 50G free disk space</li>
+<li>Docker Desktop 4.10.1 (Engine: 24.0.2, Compose: v2.18.1) and above</li>
+</ul>
+<h2 id="update-catalog-configurations">Update catalog configurations<a class="headerlink" href="#update-catalog-configurations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Update <code>mysql.properties</code>, <code>postgresql.properties</code>, <code>hive.properties</code> and/or <code>glue.properties</code> if you need to.</li>
+<li>Add catalogs of other connectors if you need to.</li>
+<li>Update <code>volumes</code> sections in <code>docker-compose.yaml</code> to mount catalog files accordingly.</li>
+<li>Update <code>environment</code> sections in <code>docker-compose.yaml</code> to inject required environment variables into Presto proceses.</li>
+</ul>
+<h2 id="start-a-presto-cluster">Start a Presto cluster<a class="headerlink" href="#start-a-presto-cluster" title="Permanent link">&para;</a></h2>
+<p>Open a terminal, and change into this directory.</p>
+<div class="highlight"><pre><span></span><code>docker compose up
+</code></pre></div>
+<p>You can monitor the logs of different containers in the terminal and Docker Desktop UI.</p>
+<h2 id="access-presto-web-console">Access Presto Web Console<a class="headerlink" href="#access-presto-web-console" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>http://127.0.0.1:8080
+</code></pre></div>
+<h2 id="run-presto-cli">Run Presto CLI<a class="headerlink" href="#run-presto-cli" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>docker exec -it cli /opt/presto-cli --server http://10.18.0.8:8080
+</code></pre></div>
+<h2 id="stop-and-delete-the-cluster">Stop and delete the cluster<a class="headerlink" href="#stop-and-delete-the-cluster" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>ctrl-c 
+docker compose down
+</code></pre></div>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The cluster perfroms better on Linux because the docker image is built to run on linux/amd64.</li>
+<li>A container may hang when running on Mac OS X. You can restart it in either terminal or Docker Desktop.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -535,10 +804,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/prestorials/", "features": ["navigation.tabs"], "search": "/prestorials/assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/prestorials/assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
